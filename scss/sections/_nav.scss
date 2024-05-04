@@ -1,0 +1,31 @@
+.color-fondo-nav {
+    background-color: #04052e !important;
+}
+
+.navbar-brand {
+    color: #b4adff !important;
+    font-family: "Rock Salt", cursive;
+    font-size: 17px !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .navlink.show a {
+    color: #b4adff !important;
+    font-family: "Salsa", cursive;
+    font-size: 14px;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #b4adff !important;
+    --bs-nav-link-hover-color: #22007C !important;
+    --bs-nav-link-disabled-color:
+}
+
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.fuentetitulo-nav {
+    font-family: "Salsa", cursive;
+    font-size: 14px !important;
+}

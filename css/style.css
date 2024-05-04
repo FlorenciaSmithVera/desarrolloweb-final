@@ -3,22 +3,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-/* ----RESETEO---- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-/* ----FUENTES---- */
-/* --SOLO para logo CNCO-- (35px para abajo) */
-/* font-family: "Rock Salt", cursive; */
-/* --PARA TITULOS NAVBAR-- (35px para abajo) */
-/* font-family: "Caveat", cursive; */
-/* --PARA TITULOS-- (30px para abajo) */
-/* font-family: "Salsa", cursive; */
-/* --Para cuerpo textos (la que esta por defaut tambien me gusta)(20px para arriba)---*/
-/* font-family: "Junge", cursive; */
-/*-----NAVEGADOR-----*/
 .color-fondo-nav {
   background-color: #04052e !important; }
 
@@ -46,4 +30,14 @@
   font-family: "Salsa", cursive;
   font-size: 14px !important; }
 
+/* ----FUENTES---- */
+/* --SOLO para logo CNCO-- (35px para abajo) */
+/* font-family: "Rock Salt", cursive; */
+/* --PARA TITULOS NAVBAR-- (35px para abajo) */
+/* font-family: "Caveat", cursive; */
+/* --PARA TITULOS-- (30px para abajo) */
+/* font-family: "Salsa", cursive; */
+/* --Para cuerpo textos (la que esta por defaut tambien me gusta)(20px para arriba)---*/
+/* font-family: "Junge", cursive; */
+/*-----NAVEGADOR-----*/
 /* -----HOME----- */
