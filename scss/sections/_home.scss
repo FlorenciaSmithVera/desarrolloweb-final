@@ -1,5 +1,45 @@
-.homestyle1 {
-    display: flex;
-    align-items: center
+main {
+    background-image: url(../../resources/CNCO-index1.JPG);
+    background-size: 100%;
+    // display: grid; 
+    // grid-template-columns: 1fr 1fr; 
+    // grid-template-rows: 1fr 1fr 1fr; 
+    // gap: 0px 0px; 
+    // grid-template-areas: 
+    //     "titulohome titulohome"
+    //     "homestyle1 integrantes"
+    //     "homestyle2 homestyle2";
+    
 
+    .titulohome {
+        @extend .titulos-princ;
+        background-color: $azul-oscuro;
+        width: 400px;
+        height: 80px;
+        border-style: groove;
+        color: $celeste-claro;
+        padding: 20px;
+         // grid-area: titulohome;
+    }
+
+    .homestyle1 {
+        @extend .cuadrostxt; 
+        width: 230px;
+        
+        // grid-area: homestyle1;
+    }
+
+    .integrantes {
+        @extend .cuadrostxt;
+        width: 400px;
+        
+        // grid-area: integrantes;
+    } 
+
+    .homestyle2 {
+        @extend .cuadrostxt;
+        // grid-area: homestyle2;
+    }
+
+    
 }
