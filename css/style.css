@@ -12,7 +12,7 @@
   padding: 10px 10px;
   font-family: "Salsa", cursive; }
 
-.cuadrostxt, main .homestyle1, main .integrantes, main .homestyle2 {
+.cuadrostxt, main .bloquehome1 .homestyle1, main .bloquehome1 .integrantes, main .homestyle2 {
   background-color: #04052E;
   border-style: groove;
   color: #B4ADFF;
@@ -54,13 +54,19 @@ main {
   background-image: url(../../resources/CNCO-index1.JPG);
   background-size: 100%; }
   main .titulohome {
+    display: flex;
+    justify-content: center;
     background-color: #140152;
-    width: 400px;
-    height: 80px;
-    border-style: groove;
     color: #B4ADFF;
-    padding: 20px; }
-  main .homestyle1 {
-    width: 230px; }
-  main .integrantes {
-    width: 400px; }
+    border-style: groove; }
+  main .bloquehome1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "homestyle1 integrantes" "homestyle1 integrantes" "homestyle1 integrantes" "homestyle1 integrantes"; }
+    main .bloquehome1 .homestyle1 {
+      width: 230px;
+      grid-area: homestyle1; }
+    main .bloquehome1 .integrantes {
+      width: 400px;
+      grid-area: integrantes; }
