@@ -176,32 +176,22 @@
     grid-template-areas: "zabdiel zabdiel chris chris" "richard richard erick erick" ". joel joel .";
     justify-items: center; }
     .carreras-solistas .cards-personales .zabdiel {
-      grid-area: zabdiel;
-      border-style: groove;
-      border-radius: 20px; }
+      grid-area: zabdiel; }
       .carreras-solistas .cards-personales .zabdiel .alineacion-img {
         text-align: center; }
     .carreras-solistas .cards-personales .chris {
-      grid-area: chris;
-      border-style: groove;
-      border-radius: 20px; }
+      grid-area: chris; }
       .carreras-solistas .cards-personales .chris .alineacion-img {
         text-align: center; }
     .carreras-solistas .cards-personales .richard {
-      grid-area: richard;
-      border-style: groove;
-      border-radius: 20px; }
+      grid-area: richard; }
       .carreras-solistas .cards-personales .richard .alineacion-img {
         text-align: center; }
     .carreras-solistas .cards-personales .erick {
-      grid-area: erick;
-      border-style: groove;
-      border-radius: 20px; }
+      grid-area: erick; }
       .carreras-solistas .cards-personales .erick .alineacion-img {
         text-align: center; }
     .carreras-solistas .cards-personales .joel {
-      grid-area: joel;
-      border-style: groove;
-      border-radius: 20px; }
+      grid-area: joel; }
       .carreras-solistas .cards-personales .joel .alineacion-img {
         text-align: center; }
