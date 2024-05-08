@@ -103,9 +103,12 @@
   .fondito .titulohome {
     display: flex;
     justify-content: center;
-    background-color: #140152;
-    color: #B4ADFF;
-    border-style: groove; }
+    background-color: #02010A;
+    color: #B4ADFF; }
+  .fondito .logo-home {
+    text-align: center; }
+  .fondito .fotos-home {
+    text-align: center; }
   .fondito .bloquehome1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

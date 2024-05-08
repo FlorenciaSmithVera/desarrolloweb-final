@@ -5,14 +5,19 @@
         @extend .titulos-princ;
         display: flex;
         justify-content: center;
-        background-color: $azul-oscuro;
+        background-color: $negrito;
         color: $celeste-claro;
-        // width: 400px;
-        // height: 80px;
-        // padding: 20px;
-        border-style: groove;
     }
 
+    .logo-home {
+        text-align: center;
+    }
+    
+    .fotos-home {
+        text-align: center;
+    }
+
+    
     .bloquehome1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
