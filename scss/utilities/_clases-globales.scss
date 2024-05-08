@@ -6,7 +6,16 @@
 
 .cuadrostxt {
     background-color: $azul-noche;
-        border-style:groove;
-        color: $celeste-claro;
-        padding: 10px; 
+    border-style: groove;
+    color: $celeste-claro;
+    padding: 10px;
 }
+
+.style-botones {
+            a {
+            text-decoration: none;
+            font-family: "Caveat", cursive;
+            font-size: 70px;
+        }
+
+    }

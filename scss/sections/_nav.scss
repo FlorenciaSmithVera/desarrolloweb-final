@@ -12,20 +12,20 @@
 .navbar-nav .navlink.show a {
     color: #b4adff !important;
     font-family: "Salsa", cursive;
-    font-size: 14px;
+    font-size: 16px;
+
 }
 
 .navbar-nav {
     --bs-nav-link-color: #b4adff !important;
     --bs-nav-link-hover-color: #22007C !important;
-    --bs-nav-link-disabled-color:
 }
 
-.navbar-expand-md .navbar-collapse {
+.navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
 }
 
 .fuentetitulo-nav {
     font-family: "Salsa", cursive;
-    font-size: 14px !important;
+    font-size: 16px !important;
 }

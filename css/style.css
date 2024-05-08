@@ -7,16 +7,21 @@
 /* font-family: "Salsa", cursive; */
 /* --Para cuerpo textos (la que esta por defaut tambien me gusta)(20px para arriba)---*/
 /* font-family: "Junge", cursive; */
-.titulos-princ, main .titulohome {
+.titulos-princ, .fondito .titulohome {
   text-align: center;
   padding: 10px 10px;
   font-family: "Salsa", cursive; }
 
-.cuadrostxt, main .bloquehome1 .homestyle1, main .bloquehome1 .integrantes, main .homestyle2 {
+.cuadrostxt, .fondito .bloquehome1 .homestyle1, .fondito .bloquehome1 .integrantes, .fondito .homestyle2 {
   background-color: #04052E;
   border-style: groove;
   color: #B4ADFF;
   padding: 10px; }
+
+.style-botones a, .generalmusica .botonesmusica .boton1 a, .generalmusica .botonesmusica .boton2 a {
+  text-decoration: none;
+  font-family: "Caveat", cursive;
+  font-size: 70px; }
 
 * {
   margin: 0;
@@ -35,38 +40,61 @@
 .navbar-nav .navlink.show a {
   color: #b4adff !important;
   font-family: "Salsa", cursive;
-  font-size: 14px; }
+  font-size: 16px; }
 
 .navbar-nav {
   --bs-nav-link-color: #b4adff !important;
-  --bs-nav-link-hover-color: #22007C !important;
-  --bs-nav-link-disabled-color:
-; }
+  --bs-nav-link-hover-color: #22007C !important; }
 
-.navbar-expand-md .navbar-collapse {
+.navbar-expand-lg .navbar-collapse {
   justify-content: flex-end; }
 
 .fuentetitulo-nav {
   font-family: "Salsa", cursive;
-  font-size: 14px !important; }
+  font-size: 16px !important; }
 
-main {
+.fondito {
   background-image: url(../../resources/CNCO-index1.JPG);
   background-size: 100%; }
-  main .titulohome {
+  .fondito .titulohome {
     display: flex;
     justify-content: center;
     background-color: #140152;
     color: #B4ADFF;
     border-style: groove; }
-  main .bloquehome1 {
+  .fondito .bloquehome1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "homestyle1 integrantes" "homestyle1 integrantes" "homestyle1 integrantes" "homestyle1 integrantes"; }
-    main .bloquehome1 .homestyle1 {
+    .fondito .bloquehome1 .homestyle1 {
       width: 230px;
       grid-area: homestyle1; }
-    main .bloquehome1 .integrantes {
+    .fondito .bloquehome1 .integrantes {
       width: 400px;
       grid-area: integrantes; }
+
+.generalmusica {
+  background-color: #02010A; }
+  .generalmusica .titulomusica h1 {
+    font-family: "Rock Salt", cursive;
+    color: #B4ADFF;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 40px; }
+  .generalmusica .botonesmusica {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+    margin: 100px 100px;
+    justify-content: center; }
+    .generalmusica .botonesmusica .boton1 {
+      background-color: #04052E;
+      border-radius: 15px;
+      margin: 20px 20px;
+      padding: 15px 15px; }
+    .generalmusica .botonesmusica .boton2 {
+      background-color: #04052E;
+      border-radius: 15px;
+      margin: 20px 20px;
+      padding: 15px 15px; }

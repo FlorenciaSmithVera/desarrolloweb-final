@@ -1,0 +1,38 @@
+.generalmusica {
+    background-color: $negrito;
+
+
+    .titulomusica h1 {
+        font-family: "Rock Salt", cursive;
+        color: $celeste-claro;
+        font-size: 50px;
+        text-align: center;
+        padding: 40px 40px;
+    }
+
+    .botonesmusica {
+        display: flex;
+        flex-direction: row;
+        padding: 50px 50px;
+        margin: 100px 100px;
+        justify-content: center;
+
+        .boton1 {
+            background-color: $azul-noche;
+            border-radius: 15px;
+            margin: 20px 20px;
+            padding: 15px 15px;
+            @extend .style-botones
+        }
+
+        .boton2 {
+            background-color: $azul-noche;
+            border-radius: 15px;
+            margin: 20px 20px;
+            padding: 15px 15px;
+            @extend .style-botones
+        }
+
+    }
+
+}
