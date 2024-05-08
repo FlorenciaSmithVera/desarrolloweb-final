@@ -23,11 +23,11 @@
             border-radius: 15px;
             margin: 20px 20px;
             padding: 15px 15px;
-            @extend .style-botones
+            @extend .style-botones;
         }
 
         .boton1 a:hover {
-            color: $azul-francia
+            color: $azul-francia;
         }
 
         .boton2 {
@@ -35,11 +35,11 @@
             border-radius: 15px;
             margin: 20px 20px;
             padding: 15px 15px;
-            @extend .style-botones
+            @extend .style-botones;
         }
 
         .boton2 a:hover {
-            color: $azul-francia
+            color: $azul-francia;
         }
 
     }
@@ -53,50 +53,73 @@
             align-items: center;
 
             .primera-cita {
-                @extend .spoti-play
+                @extend .spotiyt-play;
             }
 
             .cnco {
-                @extend .spoti-play
+                @extend .spotiyt-play;
             }
 
             .qqs {
-                @extend .spoti-play
+                @extend .spotiyt-play;
             }
 
             .deja-vu {
-                @extend .spoti-play
+                @extend .spotiyt-play;
             }
 
             .xoxo {
-                @extend .spoti-play
+                @extend .spotiyt-play;
             }
 
         }
 
         h2 {
-            @extend .h2-titstyle
+            @extend .h2-titstyle;
         }
 
         h4 {
-            font-family: "Salsa", cursive;
-            font-size: 35px;
-            color: $azul-oscuro;
-            text-align: center;
+            @extend .h4-titstyle;
         }
     }
 
     .youtube-style {
+
         h2 {
-            @extend .h2-titstyle
+            @extend .h2-titstyle;
         }
 
-        h4 {
-            font-family: "Salsa", cursive;
-            font-size: 35px;
-            color: $azul-oscuro;
-            text-align: center;
+        .txtdisclaimer {
+
+            p {
+                text-align: center;
+                color: $celeste-claro;
+            }
         }
+
+        .forever {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h4 {
+                @extend .h4-titstyle;
+            }
+
+            .forever-fuego {
+                @extend .spotiyt-play;
+            }
+
+            .forever-esamor {
+                @extend .spotiyt-play;
+            }
+
+            .forever-parasiempre {
+                @extend .spotiyt-play;
+            }
+        }
+
     }
+
 
 }
