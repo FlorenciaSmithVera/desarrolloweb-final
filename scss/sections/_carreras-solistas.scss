@@ -10,25 +10,75 @@
     }
 
     .cards-personales {
-    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "zabdiel zabdiel chris chris"
+        "richard richard erick erick"
+        ". joel joel .";
+        justify-items: center;
+
+
         .zabdiel {
             @extend .styleinfo-solista;
-        }
+            @extend .estilotxt-solistas;
+            grid-area: zabdiel; 
+            border-style:groove;
+            border-radius: 20px;
 
+            .alineacion-img {
+                text-align: center;
+            }
+
+        }
+     
         .chris {
             @extend .styleinfo-solista;
+            @extend .estilotxt-solistas;
+            grid-area: chris; 
+            border-style:groove;
+            border-radius: 20px;
+
+            .alineacion-img {
+                text-align: center;
+            }
         }
 
         .richard {
             @extend .styleinfo-solista;
+            @extend .estilotxt-solistas;
+            grid-area: richard; 
+            border-style:groove;
+            border-radius: 20px;
+
+            .alineacion-img {
+                text-align: center;
+            }
         }
 
         .erick {
             @extend .styleinfo-solista;
+            @extend .estilotxt-solistas;
+            grid-area: erick; 
+            border-style:groove;
+            border-radius: 20px;
+
+            .alineacion-img {
+                text-align: center;
+            }
         }
 
         .joel {
             @extend .styleinfo-solista;
+            @extend .estilotxt-solistas;
+            grid-area: joel; 
+            border-style:groove;
+            border-radius: 20px;
+
+            .alineacion-img {
+                text-align: center;
+            }
         }
     }
 }

@@ -50,6 +50,7 @@
 }
 
 .styleinfo-solista {
+    
     h4 {
         @extend .nombres-solistas;
     }
@@ -66,5 +67,19 @@
 
     a:hover {
         color: $azul-francia;
+    }
+}
+
+.estilotxt-solistas {
+    ul {
+        .titulito-redes {
+            text-align: center;
+            font-family: "Rock Salt", cursive;
+            font-size: 20px;
+        }
+        li {
+            text-align: center;
+            list-style: none;
+        }
     }
 }

@@ -59,6 +59,15 @@
 .styleinfo-solista a:hover, .carreras-solistas .cards-personales .zabdiel a:hover, .carreras-solistas .cards-personales .chris a:hover, .carreras-solistas .cards-personales .richard a:hover, .carreras-solistas .cards-personales .erick a:hover, .carreras-solistas .cards-personales .joel a:hover {
   color: #22007C; }
 
+.estilotxt-solistas ul .titulito-redes, .carreras-solistas .cards-personales .zabdiel ul .titulito-redes, .carreras-solistas .cards-personales .chris ul .titulito-redes, .carreras-solistas .cards-personales .richard ul .titulito-redes, .carreras-solistas .cards-personales .erick ul .titulito-redes, .carreras-solistas .cards-personales .joel ul .titulito-redes {
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 20px; }
+
+.estilotxt-solistas ul li, .carreras-solistas .cards-personales .zabdiel ul li, .carreras-solistas .cards-personales .chris ul li, .carreras-solistas .cards-personales .richard ul li, .carreras-solistas .cards-personales .erick ul li, .carreras-solistas .cards-personales .joel ul li {
+  text-align: center;
+  list-style: none; }
+
 * {
   margin: 0;
   padding: 0;
@@ -160,3 +169,39 @@
     font-size: 45px;
     text-align: center;
     padding: 40px 40px; }
+  .carreras-solistas .cards-personales {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "zabdiel zabdiel chris chris" "richard richard erick erick" ". joel joel .";
+    justify-items: center; }
+    .carreras-solistas .cards-personales .zabdiel {
+      grid-area: zabdiel;
+      border-style: groove;
+      border-radius: 20px; }
+      .carreras-solistas .cards-personales .zabdiel .alineacion-img {
+        text-align: center; }
+    .carreras-solistas .cards-personales .chris {
+      grid-area: chris;
+      border-style: groove;
+      border-radius: 20px; }
+      .carreras-solistas .cards-personales .chris .alineacion-img {
+        text-align: center; }
+    .carreras-solistas .cards-personales .richard {
+      grid-area: richard;
+      border-style: groove;
+      border-radius: 20px; }
+      .carreras-solistas .cards-personales .richard .alineacion-img {
+        text-align: center; }
+    .carreras-solistas .cards-personales .erick {
+      grid-area: erick;
+      border-style: groove;
+      border-radius: 20px; }
+      .carreras-solistas .cards-personales .erick .alineacion-img {
+        text-align: center; }
+    .carreras-solistas .cards-personales .joel {
+      grid-area: joel;
+      border-style: groove;
+      border-radius: 20px; }
+      .carreras-solistas .cards-personales .joel .alineacion-img {
+        text-align: center; }
