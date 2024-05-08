@@ -19,28 +19,24 @@
 
 
     .bloquehome1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-            "homestyle1 homestyle1 integrantes integrantes"
-            "homestyle1 homestyle1 integrantes integrantes"
-            "homestyle1 homestyle1 integrantes integrantes";
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
         align-items: center;
-        justify-items: center;
-        padding: 20px;
+
 
 
         .homestyle1 {
             @extend .cuadrostxt;
-            width: 270px;
-            grid-area: homestyle1;
+            margin: 20px;
+
         }
 
         .integrantes {
             @extend .cuadrostxt;
-            width: 400px;
-            grid-area: integrantes;
+            margin 20px;
         }
 
     }

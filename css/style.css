@@ -110,19 +110,13 @@
   .fondito .fotos-home {
     text-align: center; }
   .fondito .bloquehome1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "homestyle1 homestyle1 integrantes integrantes" "homestyle1 homestyle1 integrantes integrantes" "homestyle1 homestyle1 integrantes integrantes";
-    align-items: center;
-    justify-items: center;
-    padding: 20px; }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center; }
     .fondito .bloquehome1 .homestyle1 {
-      width: 270px;
-      grid-area: homestyle1; }
-    .fondito .bloquehome1 .integrantes {
-      width: 400px;
-      grid-area: integrantes; }
+      margin: 20px; }
   .fondito .homestyle2 {
     padding: 10px 10px;
     margin: 20px 20px; }
