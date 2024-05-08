@@ -12,6 +12,7 @@
 
     .botonesmusica {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         padding: 50px 50px;
         margin: 100px 100px;
@@ -25,6 +26,10 @@
             @extend .style-botones
         }
 
+        .boton1 a:hover {
+            color: $azul-francia
+        }
+
         .boton2 {
             background-color: $azul-noche;
             border-radius: 15px;
@@ -33,6 +38,58 @@
             @extend .style-botones
         }
 
+        .boton2 a:hover {
+            color: $azul-francia
+        }
+
+    }
+
+    .spoti-style {
+        .spoti-flex {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .primera-cita {
+                @extend .spoti-play
+            }
+
+            .cnco {
+                @extend .spoti-play
+            }
+
+            .qqs {
+                @extend .spoti-play
+            }
+
+            .deja-vu {
+                @extend .spoti-play
+            }
+
+            .xoxo {
+                @extend .spoti-play
+            }
+
+        }
+
+        h2 {
+            @extend .h2-titstyle
+        }
+
+        h4 {
+            font-family: "Salsa", cursive;
+            font-size: 35px;
+            color: $azul-oscuro;
+            text-align: center;
+        }
+    }
+
+    .youtube-style {
+        h2 {
+            @extend .h2-titstyle
+        }
     }
 
 }
