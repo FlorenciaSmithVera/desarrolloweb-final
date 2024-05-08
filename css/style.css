@@ -90,8 +90,7 @@
   font-size: 16px !important; }
 
 .fondito {
-  background-image: url(../../resources/CNCO-index1.JPG);
-  background-size: 100%; }
+  background-color: #02010A; }
   .fondito .titulohome {
     display: flex;
     justify-content: center;
