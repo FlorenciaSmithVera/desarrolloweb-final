@@ -90,6 +90,13 @@
         h2 {
             @extend .h2-titstyle
         }
+
+        h4 {
+            font-family: "Salsa", cursive;
+            font-size: 35px;
+            color: $azul-oscuro;
+            text-align: center;
+        }
     }
 
 }
