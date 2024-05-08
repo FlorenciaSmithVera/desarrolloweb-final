@@ -42,6 +42,23 @@
   padding: 20px 20px;
   margin: 10px 10px; }
 
+.nombres-solistas, .styleinfo-solista h4, .carreras-solistas .cards-personales .zabdiel h4, .carreras-solistas .cards-personales .chris h4, .carreras-solistas .cards-personales .richard h4, .carreras-solistas .cards-personales .erick h4, .carreras-solistas .cards-personales .joel h4 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  color: #B4ADFF;
+  text-align: center; }
+
+.styleinfo-solista .fotos-solistas, .carreras-solistas .cards-personales .zabdiel .fotos-solistas, .carreras-solistas .cards-personales .chris .fotos-solistas, .carreras-solistas .cards-personales .richard .fotos-solistas, .carreras-solistas .cards-personales .erick .fotos-solistas, .carreras-solistas .cards-personales .joel .fotos-solistas {
+  overflow: hidden;
+  width: 250px; }
+
+.styleinfo-solista a, .carreras-solistas .cards-personales .zabdiel a, .carreras-solistas .cards-personales .chris a, .carreras-solistas .cards-personales .richard a, .carreras-solistas .cards-personales .erick a, .carreras-solistas .cards-personales .joel a {
+  text-decoration: none;
+  color: #B4ADFF; }
+
+.styleinfo-solista a:hover, .carreras-solistas .cards-personales .zabdiel a:hover, .carreras-solistas .cards-personales .chris a:hover, .carreras-solistas .cards-personales .richard a:hover, .carreras-solistas .cards-personales .erick a:hover, .carreras-solistas .cards-personales .joel a:hover {
+  color: #22007C; }
+
 * {
   margin: 0;
   padding: 0;
@@ -135,3 +152,12 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
+
+.carreras-solistas {
+  background-color: #02010A; }
+  .carreras-solistas .titstyle-carreras {
+    font-family: "Rock Salt", cursive;
+    color: #B4ADFF;
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 40px; }

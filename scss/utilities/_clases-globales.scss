@@ -41,3 +41,30 @@
     padding: 20px 20px;
     margin: 10px 10px;
 }
+
+.nombres-solistas {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    color: $celeste-claro;
+    text-align: center;
+}
+
+.styleinfo-solista {
+    h4 {
+        @extend .nombres-solistas;
+    }
+
+    .fotos-solistas {
+        overflow: hidden;
+        width: 250px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $celeste-claro;
+    }
+
+    a:hover {
+        color: $azul-francia;
+    }
+}
