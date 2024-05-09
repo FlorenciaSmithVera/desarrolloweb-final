@@ -113,6 +113,10 @@
   font-family: "Salsa", cursive;
   font-size: 16px !important; }
 
+@media (max-width: 340px) {
+  .navbar-brand {
+    font-size: 15px !important; } }
+
 .fondito {
   background-color: #02010A; }
   .fondito .titulohome {
@@ -137,6 +141,10 @@
       font-weight: bold; }
   .fondito .homestyle2 {
     padding: 20px 20px; }
+
+@media (max-width: 389px) {
+  .logo-home img {
+    width: 319px; } }
 
 .generalmusica {
   background-color: #02010A; }
@@ -173,10 +181,6 @@
   iframe {
     width: 300px;
     height: 200px; } }
-
-@media (max-width: 340px) {
-  .navbar-brand {
-    font-size: 15px !important; } }
 
 .carreras-solistas {
   background-color: #02010A; }
