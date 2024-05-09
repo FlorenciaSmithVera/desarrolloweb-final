@@ -7,6 +7,15 @@
 /* font-family: "Salsa", cursive; */
 /* --Para cuerpo textos (la que esta por defaut tambien me gusta)(20px para arriba)---*/
 /* font-family: "Junge", cursive; */
+main {
+  background-image: linear-gradient(#02010A, #04052E); }
+  main h1 {
+    font-family: "Rock Salt", cursive;
+    color: #cccae6;
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 40px; }
+
 .titulos-princ, .fondito .titulohome {
   text-align: center;
   padding: 10px 10px;
@@ -111,68 +120,72 @@
   .navbar-brand {
     font-size: 15px !important; } }
 
-.fondito {
-  background-color: #02010A; }
-  .fondito .titulohome {
-    display: flex;
-    justify-content: center;
-    background-color: #02010A;
-    color: #cccae6; }
-  .fondito .logo-home {
+.fondito .titulohome {
+  display: flex;
+  justify-content: center;
+  background-color: #02010A;
+  color: #cccae6; }
+
+.fondito .logo-home {
+  text-align: center; }
+
+.fondito .fotos-home {
+  text-align: center; }
+
+.fondito .bloquehome1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center; }
+  .fondito .bloquehome1 .homestyle1 {
+    margin: 20px;
     text-align: center; }
-  .fondito .fotos-home {
-    text-align: center; }
-  .fondito .bloquehome1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center; }
-    .fondito .bloquehome1 .homestyle1 {
-      margin: 20px;
-      text-align: center; }
-    .fondito .bloquehome1 .integrantes {
-      font-weight: bold; }
-  .fondito .homestyle2 {
-    padding: 20px 20px; }
+  .fondito .bloquehome1 .integrantes {
+    font-weight: bold; }
+
+.fondito .homestyle2 {
+  padding: 20px 20px; }
 
 @media (max-width: 389px) {
   .logo-home img {
     width: 319px; } }
 
-.generalmusica {
-  background-color: #02010A; }
-  .generalmusica .titulomusica h1 {
+.generalmusica .titulomusica h1 {
+  font-family: "Rock Salt", cursive;
+  color: #cccae6;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px 40px; }
+
+.generalmusica .botonesmusica {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
+  margin: 65px;
+  justify-content: center; }
+  .generalmusica .botonesmusica a {
+    text-decoration: none;
     font-family: "Rock Salt", cursive;
-    color: #cccae6;
     font-size: 50px;
-    text-align: center;
-    padding: 40px 40px; }
-  .generalmusica .botonesmusica {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 50px;
-    margin: 65px;
-    justify-content: center; }
-    .generalmusica .botonesmusica a {
-      text-decoration: none;
-      font-family: "Rock Salt", cursive;
-      font-size: 50px;
-      color: #cccae6; }
-  .generalmusica .spoti-style .spoti-flex {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
-  .generalmusica .youtube-style .txtdisclaimer p {
-    text-align: center;
     color: #cccae6; }
-  .generalmusica .youtube-style .forever {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+
+.generalmusica .spoti-style .spoti-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.generalmusica .youtube-style .txtdisclaimer p {
+  text-align: center;
+  color: #cccae6; }
+
+.generalmusica .youtube-style .forever {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 @media (max-width: 965px) {
   .botonesmusica {
@@ -186,35 +199,34 @@
     width: 250px;
     height: 200px; } }
 
-.carreras-solistas {
-  background-color: #02010A; }
-  .carreras-solistas .titstyle-carreras {
-    font-family: "Rock Salt", cursive;
-    color: #cccae6;
-    font-size: 45px;
-    text-align: center;
-    padding: 40px 40px; }
-  .carreras-solistas .cards-personales {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "zabdiel zabdiel chris chris" "richard richard erick erick" ". joel joel .";
-    justify-items: center; }
-    .carreras-solistas .cards-personales .zabdiel {
-      grid-area: zabdiel;
-      text-align: center; }
-    .carreras-solistas .cards-personales .chris {
-      grid-area: chris;
-      text-align: center; }
-    .carreras-solistas .cards-personales .richard {
-      grid-area: richard;
-      text-align: center; }
-    .carreras-solistas .cards-personales .erick {
-      grid-area: erick;
-      text-align: center; }
-    .carreras-solistas .cards-personales .joel {
-      grid-area: joel;
-      text-align: center; }
+.carreras-solistas .titstyle-carreras {
+  font-family: "Rock Salt", cursive;
+  color: #cccae6;
+  font-size: 45px;
+  text-align: center;
+  padding: 40px 40px; }
+
+.carreras-solistas .cards-personales {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "zabdiel zabdiel chris chris" "richard richard erick erick" ". joel joel .";
+  justify-items: center; }
+  .carreras-solistas .cards-personales .zabdiel {
+    grid-area: zabdiel;
+    text-align: center; }
+  .carreras-solistas .cards-personales .chris {
+    grid-area: chris;
+    text-align: center; }
+  .carreras-solistas .cards-personales .richard {
+    grid-area: richard;
+    text-align: center; }
+  .carreras-solistas .cards-personales .erick {
+    grid-area: erick;
+    text-align: center; }
+  .carreras-solistas .cards-personales .joel {
+    grid-area: joel;
+    text-align: center; }
 
 @media (max-width: 340px) {
   .titstyle-carreras {
@@ -224,17 +236,52 @@
     flex-direction: column;
     flex-wrap: wrap; } }
 
-main {
-  background-image: linear-gradient(#02010A, #04052E); }
-  main h1 {
-    font-family: "Rock Salt", cursive;
-    color: #cccae6;
-    font-size: 45px;
-    text-align: center;
-    padding: 40px 40px; }
-  main .carrousel-cnco {
+.carrousel-cnco {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px; }
+
+.animate__animated.animate__bounce {
+  --animate-duration: 3s;
+  animation-iteration-count: infinite; }
+
+.form {
+  color: #cccae6;
+  padding: 20px;
+  display: flex;
+  justify-content: center; }
+  .form .form-caja {
     display: flex;
-    justify-content: center; }
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; }
+    .form .form-caja .form-nombre {
+      padding: 10px;
+      text-align: center; }
+    .form .form-caja .form-redes {
+      padding: 10px;
+      text-align: center; }
+    .form .form-caja .form-archivos {
+      padding: 10px;
+      font-family: "Salsa", cursive;
+      font-size: 15px;
+      text-align: center; }
+    .form .form-caja .form-comentarios {
+      padding: 10px;
+      font-family: "Salsa", cursive;
+      font-size: 15px;
+      text-align: center; }
+    .form .form-caja .form-enviar {
+      padding: 10px;
+      font-family: "Salsa", cursive;
+      font-size: 20px;
+      text-align: center; }
+  .form .foto-form img {
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    transform: translate(80px); }
 
 footer {
   background-color: #04052E;

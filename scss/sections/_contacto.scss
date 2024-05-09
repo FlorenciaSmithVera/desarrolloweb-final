@@ -1,0 +1,58 @@
+.animate__animated.animate__bounce {
+    --animate-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+.form {
+    color: $celeste-claro;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    .form-caja {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        .form-nombre {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .form-redes {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .form-archivos {
+            padding: 10px;
+            font-family: "Salsa", cursive;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .form-comentarios {
+            padding: 10px;
+            font-family: "Salsa", cursive;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .form-enviar {
+            padding: 10px;
+            font-family: "Salsa", cursive;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .foto-form {
+        img {
+            text-align: center;
+            width: 700px;
+            height: 500px;
+            transform: translate(80px);
+        }
+    }
+}

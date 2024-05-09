@@ -1,16 +1,6 @@
-main {
-    background-image: linear-gradient($negrito, $azul-noche);
-    h1 {
-        font-family: "Rock Salt", cursive;
-        color: $celeste-claro;
-        font-size: 45px;
-        text-align: center;
-        padding: 40px 40px;
-    }
-
 .carrousel-cnco {
     display: flex;
     justify-content: center;
-         
-}
+    padding: 20px;
+    margin: 30px;
 }
