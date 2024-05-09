@@ -77,6 +77,12 @@
     .boton-hover-transicion:hover a, .generalmusica .botonesmusica .boton1:hover a, .generalmusica .botonesmusica .boton2:hover a {
       color: #22007C; }
 
+.hover-img, .carreras-solistas .cards-personales .zabdiel img, .carreras-solistas .cards-personales .chris img, .carreras-solistas .cards-personales .richard img, .carreras-solistas .cards-personales .erick img, .carreras-solistas .cards-personales .joel img {
+  text-align: center;
+  transition: 0.3s ease-in-out; }
+  .hover-img:hover, .carreras-solistas .cards-personales .zabdiel img:hover, .carreras-solistas .cards-personales .chris img:hover, .carreras-solistas .cards-personales .richard img:hover, .carreras-solistas .cards-personales .erick img:hover, .carreras-solistas .cards-personales .joel img:hover {
+    transform: scale(0.97); }
+
 * {
   margin: 0;
   padding: 0;
@@ -176,25 +182,24 @@
     grid-template-areas: "zabdiel zabdiel chris chris" "richard richard erick erick" ". joel joel .";
     justify-items: center; }
     .carreras-solistas .cards-personales .zabdiel {
-      grid-area: zabdiel; }
-      .carreras-solistas .cards-personales .zabdiel .alineacion-img {
-        text-align: center; }
+      grid-area: zabdiel;
+      transform: translate(150px);
+      text-align: center; }
     .carreras-solistas .cards-personales .chris {
-      grid-area: chris; }
-      .carreras-solistas .cards-personales .chris .alineacion-img {
-        text-align: center; }
+      grid-area: chris;
+      transform: translate(-150px);
+      text-align: center; }
     .carreras-solistas .cards-personales .richard {
-      grid-area: richard; }
-      .carreras-solistas .cards-personales .richard .alineacion-img {
-        text-align: center; }
+      grid-area: richard;
+      transform: translate(150px);
+      text-align: center; }
     .carreras-solistas .cards-personales .erick {
-      grid-area: erick; }
-      .carreras-solistas .cards-personales .erick .alineacion-img {
-        text-align: center; }
+      grid-area: erick;
+      transform: translate(-150px);
+      text-align: center; }
     .carreras-solistas .cards-personales .joel {
-      grid-area: joel; }
-      .carreras-solistas .cards-personales .joel .alineacion-img {
-        text-align: center; }
+      grid-area: joel;
+      text-align: center; }
 
 footer {
   background-color: #04052E;

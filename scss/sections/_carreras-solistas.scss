@@ -24,9 +24,11 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: zabdiel;
+            transform: translate(150px);
+            text-align: center;
 
-            .alineacion-img {
-                text-align: center;
+            img {
+                @extend .hover-img
             }
 
         }
@@ -35,9 +37,11 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: chris;
+            transform: translate(-150px);
+            text-align: center;
 
-            .alineacion-img {
-                text-align: center;
+            img {
+                @extend .hover-img
             }
         }
 
@@ -45,9 +49,11 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: richard;
+            transform: translate(150px);
+            text-align: center;
 
-            .alineacion-img {
-                text-align: center;
+            img {
+                @extend .hover-img
             }
         }
 
@@ -55,9 +61,11 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: erick;
+            transform: translate(-150px);
+            text-align: center;
 
-            .alineacion-img {
-                text-align: center;
+            img {
+                @extend .hover-img
             }
         }
 
@@ -65,9 +73,10 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: joel;
+            text-align: center;
 
-            .alineacion-img {
-                text-align: center;
+            img {
+                @extend .hover-img
             }
         }
     }
