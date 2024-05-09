@@ -283,6 +283,38 @@ main {
     height: 500px;
     transform: translate(80px); }
 
+@media (max-width: 1230px) {
+  .foto-form img {
+    width: 400px !important;
+    height: 300px !important;
+    transform: translate(40px) !important; } }
+
+@media (max-width: 835px) {
+  .foto-form img {
+    width: 300px !important;
+    height: 250px !important;
+    transform: translate(20px) !important; } }
+
+@media (max-width: 600px) {
+  .form {
+    color: #cccae6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .form .foto-form img {
+      width: 300px !important;
+      height: 250px !important;
+      transform: translate(0px) !important; } }
+
+@media (max-width: 321px) {
+  .animate__animated.animate__bounce {
+    font-size: 30px; }
+  .form .form-archivos input {
+    font-size: 13px; }
+  .form .form-comentarios textarea {
+    width: 270px !important; } }
+
 footer {
   background-color: #04052E;
   padding: 5px; }
