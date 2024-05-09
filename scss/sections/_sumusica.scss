@@ -14,8 +14,8 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        padding: 50px 50px;
-        margin: 100px 100px;
+        padding: 50px;
+        margin: 65px;
         justify-content: center;
 
         .boton1 {
@@ -104,5 +104,25 @@
 
     }
 
+}
+
+@media (max-width: 619px) {
+    .style-botones {
+        a {
+            font-size: 40px;
+        }
+
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 340px) {
+    .navbar-brand {
+        font-size: 15px !important;
+    }
 
 }

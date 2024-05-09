@@ -150,8 +150,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 50px 50px;
-    margin: 100px 100px;
+    padding: 50px;
+    margin: 65px;
     justify-content: center; }
   .generalmusica .spoti-style .spoti-flex {
     display: flex;
@@ -166,6 +166,17 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
+
+@media (max-width: 619px) {
+  .style-botones a, .boton-hover-transicion a, .generalmusica .botonesmusica .boton1 a, .generalmusica .botonesmusica .boton2 a {
+    font-size: 40px; }
+  iframe {
+    width: 300px;
+    height: 200px; } }
+
+@media (max-width: 340px) {
+  .navbar-brand {
+    font-size: 15px !important; } }
 
 .carreras-solistas {
   background-color: #02010A; }
