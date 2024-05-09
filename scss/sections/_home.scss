@@ -28,13 +28,14 @@
 
 
         .homestyle1 {
-            @extend .cuadrostxt;
+            @extend .txtstyle-parr;
             margin: 20px;
-
+            text-align: center;            
         }
 
         .integrantes {
-            @extend .cuadrostxt;
+            @extend .txtstyle-parr;
+            font-weight: bold;            
         }
 
     }
@@ -43,12 +44,7 @@
         padding: 20px 20px;
 
         .texto-home2 {
-            @extend .cuadrostxt;
+            @extend .txtstyle-parr;       
         }
-
-
-
     }
-
-
 }

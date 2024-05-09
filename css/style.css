@@ -12,11 +12,9 @@
   padding: 10px 10px;
   font-family: "Salsa", cursive; }
 
-.cuadrostxt, .fondito .bloquehome1 .homestyle1, .fondito .bloquehome1 .integrantes, .fondito .homestyle2 .texto-home2 {
-  background-color: #04052E;
-  border-style: groove;
+.txtstyle-parr, .fondito .bloquehome1 .homestyle1, .fondito .bloquehome1 .integrantes, .fondito .homestyle2 .texto-home2 {
   color: #B4ADFF;
-  padding: 10px; }
+  font-family: "Junge", cursive; }
 
 .style-botones a, .generalmusica .botonesmusica .boton1 a, .generalmusica .botonesmusica .boton2 a {
   text-decoration: none;
@@ -116,7 +114,10 @@
     align-content: center;
     align-items: center; }
     .fondito .bloquehome1 .homestyle1 {
-      margin: 20px; }
+      margin: 20px;
+      text-align: center; }
+    .fondito .bloquehome1 .integrantes {
+      font-weight: bold; }
   .fondito .homestyle2 {
     padding: 20px 20px; }
 
@@ -199,5 +200,5 @@
         text-align: center; }
 
 footer {
-  background-color: #02010A;
+  background-color: #04052E;
   padding: 5px; }
