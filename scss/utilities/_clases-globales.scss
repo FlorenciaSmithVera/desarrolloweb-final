@@ -9,15 +9,15 @@
     font-family: "Junge", cursive;
 }
 
-.style-botones {
-    a {
-        text-decoration: none;
-        font-family: "Rock Salt", cursive;
-        font-size: 50px;
-        color: $celeste-claro
-    }
+// .style-botones {
+//     a {
+//         text-decoration: none;
+//         font-family: "Rock Salt", cursive;
+//         font-size: 50px;
+//         color: $celeste-claro
+//     }
 
-}
+// }
 
 .h2-titstyle {
     font-family: "Rock Salt", cursive;
@@ -88,7 +88,6 @@
     border-radius: 15px;
     margin: 20px 20px;
     padding: 15px 15px;
-    @extend .style-botones;
     transition: 0.3s ease-in-out;
 
     &:hover {
@@ -107,3 +106,4 @@
         transform: scale(0.97)
     }
 }
+

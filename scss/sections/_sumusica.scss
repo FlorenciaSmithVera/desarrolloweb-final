@@ -18,6 +18,14 @@
         margin: 65px;
         justify-content: center;
 
+        a {
+            text-decoration: none;
+            font-family: "Rock Salt", cursive;
+            font-size: 50px;
+            color: $celeste-claro
+        }
+
+
         .boton1 {
             @extend .boton-hover-transicion;
         }
@@ -106,12 +114,19 @@
 
 }
 
-@media (max-width: 619px) {
-    .style-botones {
-        a {
-            font-size: 40px;
-        }
+@media (max-width: 965px) {
+    .botonesmusica {
+        padding: 10px !important;
+        margin: 25px !important;
+    }
+}
 
+
+@media (max-width: 619px) {
+    .botonesmusica {
+        a {
+            font-size: 40px !important;
+        }
     }
 
     iframe {
@@ -119,4 +134,3 @@
         height: 200px;
     }
 }
-
