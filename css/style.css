@@ -13,7 +13,7 @@
   font-family: "Salsa", cursive; }
 
 .txtstyle-parr, .fondito .bloquehome1 .homestyle1, .fondito .bloquehome1 .integrantes, .fondito .homestyle2 .texto-home2 {
-  color: #B4ADFF;
+  color: #cccae6;
   font-family: "Junge", cursive; }
 
 .h2-titstyle, .generalmusica .spoti-style h2, .generalmusica .youtube-style h2 {
@@ -21,7 +21,7 @@
   font-size: 40px;
   font-weight: bolder;
   text-align: center;
-  color: #B4ADFF;
+  color: #cccae6;
   padding: 30px 30px; }
 
 .h4-titstyle, .generalmusica .spoti-style h4, .generalmusica .youtube-style .forever h4 {
@@ -37,7 +37,7 @@
 .nombres-solistas, .styleinfo-solista h4, .carreras-solistas .cards-personales .zabdiel h4, .carreras-solistas .cards-personales .chris h4, .carreras-solistas .cards-personales .richard h4, .carreras-solistas .cards-personales .erick h4, .carreras-solistas .cards-personales .joel h4 {
   font-family: "Caveat", cursive;
   font-size: 40px;
-  color: #B4ADFF;
+  color: #cccae6;
   text-align: center; }
 
 .styleinfo-solista .fotos-solistas, .carreras-solistas .cards-personales .zabdiel .fotos-solistas, .carreras-solistas .cards-personales .chris .fotos-solistas, .carreras-solistas .cards-personales .richard .fotos-solistas, .carreras-solistas .cards-personales .erick .fotos-solistas, .carreras-solistas .cards-personales .joel .fotos-solistas {
@@ -46,7 +46,7 @@
 
 .styleinfo-solista a, .carreras-solistas .cards-personales .zabdiel a, .carreras-solistas .cards-personales .chris a, .carreras-solistas .cards-personales .richard a, .carreras-solistas .cards-personales .erick a, .carreras-solistas .cards-personales .joel a {
   text-decoration: none;
-  color: #B4ADFF; }
+  color: #cccae6; }
 
 .styleinfo-solista a:hover, .carreras-solistas .cards-personales .zabdiel a:hover, .carreras-solistas .cards-personales .chris a:hover, .carreras-solistas .cards-personales .richard a:hover, .carreras-solistas .cards-personales .erick a:hover, .carreras-solistas .cards-personales .joel a:hover {
   color: #22007C; }
@@ -117,7 +117,7 @@
     display: flex;
     justify-content: center;
     background-color: #02010A;
-    color: #B4ADFF; }
+    color: #cccae6; }
   .fondito .logo-home {
     text-align: center; }
   .fondito .fotos-home {
@@ -144,7 +144,7 @@
   background-color: #02010A; }
   .generalmusica .titulomusica h1 {
     font-family: "Rock Salt", cursive;
-    color: #B4ADFF;
+    color: #cccae6;
     font-size: 50px;
     text-align: center;
     padding: 40px 40px; }
@@ -159,7 +159,7 @@
       text-decoration: none;
       font-family: "Rock Salt", cursive;
       font-size: 50px;
-      color: #B4ADFF; }
+      color: #cccae6; }
   .generalmusica .spoti-style .spoti-flex {
     display: flex;
     flex-wrap: wrap;
@@ -168,7 +168,7 @@
     align-items: center; }
   .generalmusica .youtube-style .txtdisclaimer p {
     text-align: center;
-    color: #B4ADFF; }
+    color: #cccae6; }
   .generalmusica .youtube-style .forever {
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@
   background-color: #02010A; }
   .carreras-solistas .titstyle-carreras {
     font-family: "Rock Salt", cursive;
-    color: #B4ADFF;
+    color: #cccae6;
     font-size: 45px;
     text-align: center;
     padding: 40px 40px; }
@@ -223,6 +223,18 @@
     display: flex !important;
     flex-direction: column;
     flex-wrap: wrap; } }
+
+main {
+  background-image: linear-gradient(#02010A, #04052E); }
+  main h1 {
+    font-family: "Rock Salt", cursive;
+    color: #cccae6;
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 40px; }
+  main .carrousel-cnco {
+    display: flex;
+    justify-content: center; }
 
 footer {
   background-color: #04052E;
