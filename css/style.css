@@ -12,7 +12,7 @@
   padding: 10px 10px;
   font-family: "Salsa", cursive; }
 
-.cuadrostxt, .fondito .bloquehome1 .homestyle1, .fondito .bloquehome1 .integrantes, .fondito .homestyle2 {
+.cuadrostxt, .fondito .bloquehome1 .homestyle1, .fondito .bloquehome1 .integrantes, .fondito .homestyle2 .texto-home2 {
   background-color: #04052E;
   border-style: groove;
   color: #B4ADFF;
@@ -118,8 +118,7 @@
     .fondito .bloquehome1 .homestyle1 {
       margin: 20px; }
   .fondito .homestyle2 {
-    padding: 10px 10px;
-    margin: 20px 20px; }
+    padding: 20px 20px; }
 
 .generalmusica {
   background-color: #02010A; }
@@ -198,3 +197,7 @@
       grid-area: joel; }
       .carreras-solistas .cards-personales .joel .alineacion-img {
         text-align: center; }
+
+footer {
+  background-color: #02010A;
+  padding: 5px; }

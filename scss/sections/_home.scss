@@ -19,7 +19,6 @@
 
 
     .bloquehome1 {
-
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -41,9 +40,13 @@
     }
 
     .homestyle2 {
-        @extend .cuadrostxt;
-        padding: 10px 10px;
-        margin: 20px 20px;
+        padding: 20px 20px;
+
+        .texto-home2 {
+            @extend .cuadrostxt;
+        }
+
+
 
     }
 
