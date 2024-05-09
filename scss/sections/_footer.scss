@@ -24,7 +24,15 @@ footer {
 }
 
 .redes-footer {
-  transform: translate(-50px);
+  transform: translate(-70px);
+  text-align: center;
+  font-family: "Junge", cursive;
+  color: $celeste-claro;
+
+  p {
+margin: 0px;
+padding: 0px;
+  }
 
   .flex-footer {
     list-style: none;
@@ -32,6 +40,8 @@ footer {
     flex-wrap: wrap;
     font-family: "Junge", cursive;
     font-size: 15px;
+    padding: 10px 10px;
+    margin: 0px;
 
     li {
       padding: 10px;

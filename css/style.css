@@ -333,13 +333,21 @@ footer {
       color: #22007C; }
 
 .redes-footer {
-  transform: translate(-50px); }
+  transform: translate(-70px);
+  text-align: center;
+  font-family: "Junge", cursive;
+  color: #cccae6; }
+  .redes-footer p {
+    margin: 0px;
+    padding: 0px; }
   .redes-footer .flex-footer {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     font-family: "Junge", cursive;
-    font-size: 15px; }
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 0px; }
     .redes-footer .flex-footer li {
       padding: 10px; }
     .redes-footer .flex-footer a {
