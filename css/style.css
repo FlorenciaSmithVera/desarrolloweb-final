@@ -198,23 +198,27 @@
     justify-items: center; }
     .carreras-solistas .cards-personales .zabdiel {
       grid-area: zabdiel;
-      transform: translate(150px);
       text-align: center; }
     .carreras-solistas .cards-personales .chris {
       grid-area: chris;
-      transform: translate(-150px);
       text-align: center; }
     .carreras-solistas .cards-personales .richard {
       grid-area: richard;
-      transform: translate(150px);
       text-align: center; }
     .carreras-solistas .cards-personales .erick {
       grid-area: erick;
-      transform: translate(-150px);
       text-align: center; }
     .carreras-solistas .cards-personales .joel {
       grid-area: joel;
       text-align: center; }
+
+@media (max-width: 340px) {
+  .titstyle-carreras {
+    font-size: 30px !important; }
+  .cards-personales {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap; } }
 
 footer {
   background-color: #04052E;

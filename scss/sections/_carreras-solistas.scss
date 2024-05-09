@@ -24,11 +24,10 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: zabdiel;
-            transform: translate(150px);
             text-align: center;
 
             img {
-                @extend .hover-img
+                @extend .hover-img;
             }
 
         }
@@ -37,11 +36,10 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: chris;
-            transform: translate(-150px);
             text-align: center;
 
             img {
-                @extend .hover-img
+                @extend .hover-img;
             }
         }
 
@@ -49,11 +47,10 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: richard;
-            transform: translate(150px);
             text-align: center;
 
             img {
-                @extend .hover-img
+                @extend .hover-img;
             }
         }
 
@@ -61,11 +58,10 @@
             @extend .styleinfo-solista;
             @extend .estilotxt-solistas;
             grid-area: erick;
-            transform: translate(-150px);
             text-align: center;
 
             img {
-                @extend .hover-img
+                @extend .hover-img;
             }
         }
 
@@ -76,8 +72,21 @@
             text-align: center;
 
             img {
-                @extend .hover-img
+                @extend .hover-img;
             }
         }
     }
+}
+
+@media (max-width: 340px) {
+    .titstyle-carreras {
+        font-size: 30px !important;
+    }
+
+    .cards-personales {
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
 }
